@@ -8,10 +8,10 @@ import urllib
 
 import secrets
 
-SID=secrets.SID
-TOKEN=secrets.TOKEN
-TO=secrets.TO
-FROM=secrets.FROM
+SID	= secrets.SID
+TOKEN	= secrets.TOKEN
+TO	= secrets.TO
+FROM	= secrets.FROM
 
 def attempt_send(to, body):
 	c = Client(SID, TOKEN)
